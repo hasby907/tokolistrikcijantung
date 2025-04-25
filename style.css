@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 8;
+    padding: 4;
+    background-color: #0e0e0e;
+  }
+  .whatsapp-button {
+    background-color: #25D366; /* warna hijau WhatsApp */
+    color: white;
+    padding: 5px 10px;
+    margin-top: 5px; /* opsional untuk terlihat lebih rapih */
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  /* Header */
+  header {
+    background-color: #0c4884;
+    color: rgb(44, 37, 37);
+    padding: 10px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border: 8px solid #000; /* <- Tambahkan baris ini */
+    background-color: #e3e2e5;
+    padding: 25px; /* opsional untuk kasih jarak dalam */
+    border-radius: 10px; /* opsional untuk bikin sudutnya melengkung */
+}
+  
+  .logo {
+    width: 80px;
+    height: auto;
+  }
+  
+  .header-text h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+  
+  .header-text p {
+    margin: 5px 0 0;
+    font-size: 16px;
+  }
+  .layanan-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: #004080;
+  }
+  
+  .layanan-container .container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #33a3dc;
+    border-radius: 12px;
+    padding: 30px;
+    border: 2px solid white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: #000;
+    font-size: 18px;
+  }
+  
+  .judul {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .layanan-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .item {
+    flex: 1 1 45%;
+  }
+  
+  
+  .judul-produk {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* atau tinggi sesuai kebutuhan */
+  
+  }
+  
+  .produk {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px; /* jarak antar produk dikecilkan */
+    padding: 10px;
+  }
+  
+  .card {
+    background-color: #d6e6ea;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px; /* lebih kecil dari sebelumnya */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain; /* gambar tetap proporsional */
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    font-size: 16px;
+    margin: 8px 0 5px;
+  }
+  
+  .card p {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  .layanan-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #004080;
+}
+
+.layanan-container .container {
+  width: 90%;
+  max-width: 1000px;
+  background-color: #33a3dc;
+  border-radius: 12px;
+  padding: 30px;
+  border: 2px solid white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #000;
+  font-size: 18px;
+}
+
+.judul {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.layanan-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  flex: 1 1 45%;
+}
+
+ /* Layanan */
+ .layanan, .kontak, .lokasi {
+  background-color: #3498db; /* warna biru sesuai gambar */
+  border: 2.5px solid rgb(254, 254, 254);
+  border-radius: 10px;
+  padding: 20px 30px;
+  max-width: 400px;
+  margin: 20px auto 0;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  color: #222;
+  text-align: left;
+}
+.layanan h3, .lokasi h3 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+  
+  .kontak-lokasi-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Biar responsif */
+    gap: 5px;
+    margin: 5px auto 0;
+    margin-bottom: 20px;
+  }
+  .kontak {
+  width: 150px;              /* Ukuran lebih kecil */
+  padding: 0px 150px;        /* Padding disesuaikan */
+  margin: 15px;              /* Margin antar kotak diperkecil */
+  border: 1.5px solid white;
+  border-radius: 10px;
+  background-color: #33a3dc;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  .lokasi {
+    display: block;
+    text-align: center;
+    font-family: 30px;
+    width: 400px;              /* Ukuran lebih kecil */
+    margin-bottom: 15px;  /* Margin antar kotak diperkecil */
+  
+}
+
+  /* Responsif HP */
+  @media (max-width: 600px) {
+    .kontak,
+    .lokasi {
+      width: 90%;
+    }
+ 
+  }
+
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
